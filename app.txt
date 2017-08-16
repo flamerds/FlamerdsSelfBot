@@ -1,0 +1,21 @@
+const Discord = require("discord.js");
+const bot = new Discord.Client();
+bot.on("ready", () => {
+  console.log("Running");
+  // Change "Choose a Game" to whatever game you want to "play" on discord
+  bot.user.setGame('Choose a Game')
+  console.log("flamerds selfbot version 0.0.3");
+})
+//ENTER YOUR TOKEN HERE
+var TOKEN = "ENTER YOUR TOKEN HERE"
+// CHANGE "EnterYourPrefixHere"  to the prefix you want for example "!"
+var prefix = "EnterYourPrefixHere"
+bot.on('message', message => {
+	// Put your Client ID in "Your Client ID" Can be done by going in developer mode right clicking you're name and pressing "Copy ID"
+    if (!message.author.id.match("Your Client ID")) return;
+    if (message.content.startsWith(prefix + 'YourCommandName')) {
+        message.channel.sendMessage('YourCommandResponse');
+    }
+});
+//DON'T ENTER YOUR TOKEN HERE
+bot.login('TOKEN');

@@ -1,0 +1,13 @@
+Read app.txt
+
+After finishing rename "app.txt" to "app.js" (without quotes)
+
+For proper text editor I reccomend Notepad++ or Visual Studio Code
+
+Links
+
+Notepad++ : https://notepad-plus-plus.org/download/v7.5.html
+
+Visual Studio Code: https://code.visualstudio.com/download
+
+Github: (to add)

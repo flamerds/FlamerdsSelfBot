@@ -1,0 +1,10 @@
+flamerds selbot all rights reserved 
+
+Version 0.0.3 
+
+Rules:
+
+1. Do not take credit for making this bot.
+2. Use at your own risk, any damage you inflict on the code could ban you unless used properly.
+3. If you get banned from discord do not blame me.
+
