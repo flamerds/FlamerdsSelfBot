@@ -1,4 +1,4 @@
-# FlamerdsSelfBot
+# Flamerds Self Bot
 A discord Selfbot made by flamerds
 
 Steps:
